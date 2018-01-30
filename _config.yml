@@ -1,0 +1,83 @@
+# main text of home
+name: Ludus Russo
+bio: Un maker, un robotico, un Roker!
+description: Il mio blog personale sulla programmazione e il making
+
+external-image: false
+picture: assets/images/profile.jpg
+
+title: Ludus Russo
+
+lang: it_IT
+
+url: https://ludusrusso.cc
+
+permalink: /:year/:month/:day/:title/
+
+
+analytics-google: 'UA-89221021-1'
+
+disqus:
+  shortname: ludusrusso-cc # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
+
+mailchimp:
+  subscribe: https://ludusrusso.us17.list-manage.com/subscribe/post?u=b834c0b2ad6188cfdad0234c3&amp;id=68e285b053
+
+# if you don't have any of social below, comment the line
+facebook: ludusrusso.cc
+twitter: Ludus89
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+linkedin: ludovicorusso
+# youtube: myyoutube
+# spotify: myspotify
+github: ludusrusso
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+email: ludus.russo@gmail.com
+
+authors:
+    ludusrusso:
+        name: Ludus Russo
+        bio: Un maker, un robotico, un Roker!
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: Ludus89
+
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: true
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+jekyll-mentions:
+    base_url: https://github.com
